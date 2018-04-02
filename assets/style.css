@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
+@import url('https://fonts.googleapis.com/css?family=Fascinate+Inline|Press+Start+2P');
+
+body{
+	background: url('../assets/images/AdobeStock_65125970.jpeg');
+	background-size: 100%;
+    background-repeat: no-repeat;
+    color: black;
+   
+}
+* {
+	box-sizing: border-box;
+}
+img { 
+    height: 150px;
+    width: 150px;
+}
+.btn {
+    /* adding spacing between each button*/
+    margin: 3px;
+    background-color: blue;
+    border-color: #fff;
+}
+.gifDiv{
+    /* making the images go in one line rather than block & adding spacing between the images*/
+    float: left;
+    margin: 3px;
+    color: darkblue;
+}
+.container {
+	background-color: #fff;
+	opacity: 0.8;
+    padding: 20px;
+    color: darkblue;
+   
+}
+
+h2 {
+    color: darkblue;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Fascinate Inline', cursive;
+    font-size: 5px;
+}
+.jumbotron {
+    background-color: inherit;
+    background: url('../assets/images/AdobeStock_65125970.jpeg');
+}
+.jumbotron .h1, .jumbotron h1 {
+    text-align: center;
+    font-family: 'Bungee Inline', cursive;
+}
+#copyright{
+	font-size: 14px;
+}
+div#footer {
+	clear: both;
+	margin-top: 40px;
+	position: center;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+}
